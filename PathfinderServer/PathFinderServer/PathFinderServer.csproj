@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IAbility.cs" />
-    <Compile Include="ICalculatedValue.cs" />
+    <Compile Include="Abilities\Ability.cs" />
+    <Compile Include="Abilities\Charisma.cs" />
+    <Compile Include="Abilities\Constitution.cs" />
+    <Compile Include="Abilities\Dexterity.cs" />
+    <Compile Include="Abilities\Intelligence.cs" />
+    <Compile Include="Abilities\Strength.cs" />
+    <Compile Include="Abilities\Wisdom.cs" />
+    <Compile Include="Interfaces\IAbility.cs" />
+    <Compile Include="Interfaces\ICalculatedValue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
