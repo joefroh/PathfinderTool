@@ -1,4 +1,5 @@
 ﻿using System;
+using PathFinderServer.Interfaces;
 
 namespace PathFinderServer.Abilities
 {
@@ -8,5 +9,6 @@ namespace PathFinderServer.Abilities
         public int AbilityModifier { get; set; }
         public int TempAdjustment { get; set; }
         public int TempModifier { get; set; }
+        public abstract Abilities Type { get; }
     }
 }

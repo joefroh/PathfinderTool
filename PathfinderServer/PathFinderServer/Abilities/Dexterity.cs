@@ -8,6 +8,6 @@ namespace PathFinderServer.Abilities
 {
     class Dexterity : Ability
     {
-
+        public override Abilities Type { get { return Abilities.Dexterity;} }
     }
 }

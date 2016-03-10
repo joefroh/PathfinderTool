@@ -8,6 +8,6 @@ namespace PathFinderServer.Abilities
 {
     class Charisma : Ability
     {
-       
+        public override Abilities Type { get { return Abilities.Charisma;} }
     }
 }

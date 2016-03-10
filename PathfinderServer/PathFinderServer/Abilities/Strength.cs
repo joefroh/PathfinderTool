@@ -8,6 +8,6 @@ namespace PathFinderServer.Abilities
 {
     class Strength : Ability
     {
-        
+        public override Abilities Type { get { return Abilities.Strength;} }
     }
 }

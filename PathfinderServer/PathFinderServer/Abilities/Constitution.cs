@@ -8,6 +8,6 @@ namespace PathFinderServer.Abilities
 {
     class Constitution : Ability
     {
-        
+        public override Abilities Type { get {return Abilities.Constitution;} }
     }
 }

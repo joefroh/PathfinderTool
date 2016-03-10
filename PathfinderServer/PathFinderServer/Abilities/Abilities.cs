@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace PathFinderServer.Abilities
 {
-    class Intelligence : Ability
+    enum Abilities
     {
-        public override Abilities Type { get {return Abilities.Intelligence;} }
+        Strength,
+        Dexterity,
+        Constitution,
+        Intelligence,
+        Wisdom,
+        Charisma,
     }
 }

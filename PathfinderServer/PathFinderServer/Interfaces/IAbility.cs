@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PathFinderServer
+﻿namespace PathFinderServer.Interfaces
 {
     interface IAbility
     {
@@ -27,5 +21,7 @@ namespace PathFinderServer
         {
             get; set;
         }
+
+        Abilities.Abilities Type { get; }
     }
 }

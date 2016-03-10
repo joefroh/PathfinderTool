@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abilities\Abilities.cs" />
     <Compile Include="Abilities\Ability.cs" />
     <Compile Include="Abilities\Charisma.cs" />
     <Compile Include="Abilities\Constitution.cs" />
@@ -52,11 +53,15 @@
     <Compile Include="Abilities\Wisdom.cs" />
     <Compile Include="Interfaces\IAbility.cs" />
     <Compile Include="Interfaces\ICalculatedValue.cs" />
+    <Compile Include="Interfaces\ISkill.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Skills\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
