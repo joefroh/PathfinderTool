@@ -1,14 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PathFinderServer.Interfaces
+﻿namespace PathFinderServer.Interfaces
 {
-    interface ISkill
+    internal interface ISkill
     {
         bool TrainedOnly { get; }
 
+        Abilities.Abilities AbilityBase { get; }
+
+        int AbilityMod { get; }
+
+        int Ranks { get; set; }
+
+        int MiscMod { get; set; }
+
+        int TotalBonus();
     }
 }

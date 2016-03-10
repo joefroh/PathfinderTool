@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PathFinderServer.Abilities
+﻿namespace PathFinderServer.Abilities
 {
-    class Dexterity : Ability
+    internal class Dexterity : Ability
     {
-        public override Abilities Type { get { return Abilities.Dexterity;} }
+        public override Abilities Type
+        {
+            get { return Abilities.Dexterity; }
+        }
     }
 }

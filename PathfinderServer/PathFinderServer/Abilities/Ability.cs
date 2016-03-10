@@ -1,5 +1,4 @@
-﻿using System;
-using PathFinderServer.Interfaces;
+﻿using PathFinderServer.Interfaces;
 
 namespace PathFinderServer.Abilities
 {

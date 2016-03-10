@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PathFinderServer.Abilities
+﻿namespace PathFinderServer.Abilities
 {
-    class Intelligence : Ability
+    internal class Intelligence : Ability
     {
-        public override Abilities Type { get {return Abilities.Intelligence;} }
+        public override Abilities Type
+        {
+            get { return Abilities.Intelligence; }
+        }
     }
 }
