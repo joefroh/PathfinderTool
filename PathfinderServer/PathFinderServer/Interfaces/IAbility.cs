@@ -10,22 +10,22 @@ namespace PathFinderServer
     {
         int AbilityScore
         {
-            get;
+            get; set;
         }
 
         int AbilityModifier
         {
-            get;
+            get; set;
         }
 
         int TempAdjustment
         {
-            get;
+            get; set;
         }
 
         int TempModifier
         {
-            get;
+            get; set;
         }
     }
 }
